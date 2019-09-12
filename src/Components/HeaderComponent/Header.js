@@ -4,7 +4,7 @@ import "../../header_style.css";
 function Header() {
   return (
     <div className="header_contianer">
-      <img src="../../src/images/Logo.png" alt="Nasa Logo"></img>
+      <img src="https://api.nasa.gov/images/logo.png" alt="Nasa Logo"></img>
       <h2>
         <span className="span_heading">N</span>ational{" "}
         <span className="span_heading">A</span>eronautics{" "}
