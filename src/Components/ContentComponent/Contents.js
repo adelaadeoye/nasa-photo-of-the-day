@@ -14,10 +14,9 @@ export default function Contents() {
       )
       .then(response => {
         const apod = response.data;
-        console.log(apod.copyright);
+// setDate
 
         setApod(apod);
-        console.log(response);
         const vari = document.querySelector("#start").nodeValue;
         console.log(vari);
       })
@@ -39,7 +38,6 @@ export default function Contents() {
         min="2018-01-01"
         max="2020-12-31"
       ></input>
-
       <ContenHolder
         key={apod}
         title={apod.title}
